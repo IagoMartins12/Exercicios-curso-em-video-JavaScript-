@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="src/select-css.css" rel="stylesheet">
+
+    <title>Analisador de numeros</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de numeros</h1>
+    </header>
+    <section>
+        <div>
+            Numero(Entre 0 a 100) <input type="number" name="Inicio" id="txtNumero">
+            <button onclick="Add()"> Adicionar</button>
+            <p> 
+                <select name="Select" id="txtSelect" size="10">
+                </select>
+            </p>
+            <button onclick="Finish()">Finalizar</button>
+            <button onclick="ButtonClear()">Limpar</button>
+        </div>
+
+        <div id='res'>
+
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
